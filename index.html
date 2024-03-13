@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen -  JSON Viewer Pro [Day2]</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JSON Viewer Pro</title>
+</head>
+
+<body>
+<!--
+  <div class="header">
+    <h1>JSON Viewer Pro</h1>
+  </div>
+-->
+  <div id="json-container">
+    <textarea id="json-input" placeholder="paste your json here"></textarea>
+    <div id="json-output"></div>
+  </div>
+  <div id="options">
+    <div>
+      <button onclick="formatJSON()">Format JSON</button>
+      <label for="search">Search</label>
+      <input type="text" id="search" placeholder="keyword">
+      <button onclick="searchJSON()">Search JSON</button>
+    </div>
+    <div>
+      <button onclick="copyToClipboard()">Copy To Clipboard</button>
+      <button onclick="exportToFile()">Export To File</button>
+      <input type="file" id="importFile" accept=".json" style="display:none">
+      <label for="importFile">
+        <button onclick="document.getElementById('importFile').click()">Import File</button>
+      </label>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

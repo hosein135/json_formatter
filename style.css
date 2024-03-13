@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  color: #abb2bf;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+  background-color: #21252b;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #61dafb;
+}
+
+#json-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  background-color: #363b46;
+}
+
+#json-input {
+  width: 45%;
+  height: 400px;
+  font-size: 14px;
+  background-color: #2b2e39;
+  color: #abb2bf;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  resize: none;
+}
+
+#json-output {
+  width: 45%;
+  height: 400px;
+  background-color: #2b2e39;
+  color: #abb2bf;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+#options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b8af4;
+}
+
+.error {
+  color: #e06c75;
+}
+
+/* カラーリング */
+.object {
+  color: #c678dd;
+}
+
+.array {
+  color: #98c379;
+}
+
+.key {
+  color: #61dafb;
+}
+
+.string {
+  color: #98c379;
+}
+
+.number {
+  color: #d19a66;
+}
+
+.boolean {
+  color: #d19a66;
+}
+
+.null {
+  color: #d19a66;
+}
